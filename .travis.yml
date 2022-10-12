@@ -41,3 +41,4 @@ deploy:
     repo: verma-kartik/Agora
     branch: main
     go: '1.9'
+    tags: TRUE
