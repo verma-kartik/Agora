@@ -18,7 +18,7 @@ jobs:
       - run: go test -coverprofile=udp.coverprofile ./udp
       - run: go test -coverprofile=main.coverprofile
       - run: $HOME/gopath/bin/gover
-      - run: $HOME/gopath/bin/goveralls -coverprofile=gover.coverprofile -service travis-ci
+      - run: $HOME/gopath/bin/goveralls -coverprofile=$HOME/gopath/coverage.out -service=circle-ci -repotoken=wmawIpg8vk25Tbw2Ie1Jyrh9rynUEnsH6
       - run: go build main/agora.go
 
 workflows:
