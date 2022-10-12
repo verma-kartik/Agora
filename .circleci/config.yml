@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/github.com/verma-kartik/Agora
     docker:
-      - image: circleci/golang
+      - image: circleci/golang:latest
     steps:
       - checkout
       - run: go get golang.org/x/tools/cmd/cover
