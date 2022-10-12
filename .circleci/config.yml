@@ -12,9 +12,9 @@ jobs:
       - run: go get github.com/modocache/gover
       - run: go get github.com/mattn/goveralls
       - run: go get -d ./...
-      - run: go test -v ./... -bench=.
       - run: go test -coverprofile=message.coverprofile ./message
       - run: go test -coverprofile=queue.coverprofile ./queue
+      - run: go test -coverprofile=udp.coverprofile ./udp
       - run: go test -coverprofile=main.coverprofile
       - run: $HOME/gopath/bin/gover
       - run: $HOME/gopath/bin/goveralls -coverprofile=$HOME/gopath/coverage.out -service=circle-ci -repotoken=wmawIpg8vk25Tbw2Ie1Jyrh9rynUEnsH6
