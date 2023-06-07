@@ -1,4 +1,5 @@
 # Agora
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/verma-kartik/Agora/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/verma-kartik/Agora/tree/main)
 
 This project centres around building an enterprise-style messaging broker, in
 designing network-oriented distributed applications using a GoLang, whilst following software design, test and architecture best practises - such as
