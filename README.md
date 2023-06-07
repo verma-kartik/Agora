@@ -1,5 +1,17 @@
 # Agora
-Enterprise-style asynchronous message broker written in Golang.
+
+This project centres around building an enterprise-style messaging broker, in
+designing network-oriented distributed applications using a GoLang, whilst following software design, test and architecture best practises - such as
+unit-testing, Continuous Integration (CI), and built-in monitoring.
+In broad strokes, my project has the following goals:
+
+• Learn and evaluate the impact and usefulness of GoLang’s fairly unique set of
+  concurrency primitives in constructing and testing high performance software.
+
+• Design and build a well-tested, stable message broker in GoLang.
+
+• Evaluate the performance and feature-set of my implementation.
+
 
 # Project Design
 
