@@ -21,8 +21,8 @@ In broad strokes, my project has the following goals:
 A number of these configurable parameters make sense to expose as command-line parameters, specified at application start time. The available parameters can be exposed using the ``--help`` parameter.
 
 ```bash
-$ ./gamq --help
-Usage of ./gamq:
+$ ./agora --help
+Usage of ./agora:
   -port int
       The port to listen on (default 48879)
   -profile
